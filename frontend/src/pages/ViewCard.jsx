@@ -201,7 +201,7 @@ function ViewCard() {
      
     {updatePopUp && <div className='w-[100%] h-[100%] flex items-center justify-center bg-[#000000a9]
      absolute top-[0px] z-[100] backdrop-blur-sm'>
-        <RxCross2  className='w-[30px] h-[30px] bg-[#020248] cursor-pointer absolute top-[6%] left-[25px] rounded-[50%] flex items-center text-[white]
+        <RxCross2  className='w-[30px] h-[30px] bg-[#020248] cursor-pointer absolute top-[6%] left-[25px] rounded-[50%] flex items-center 
          justify-center' onClick={() => {setUpdatePopUp(false)}}/>
          <form action="" className='max-w-[900px] w-[90%] h-[550px] flex items-center justify-start 
          flex-col gap-[10px] overflow-auto mt-[50px] text-[white] bg-[#272727] p-[20px] rounded-lg' onSubmit={(e)=>e.preventDefault()}>
