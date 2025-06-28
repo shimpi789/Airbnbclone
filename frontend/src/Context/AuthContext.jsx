@@ -4,7 +4,7 @@ export const authDataContext = createContext()
 
 function AuthContext({children}) {
 
-    let serverUrl = "http://localhost:3000"
+    let serverUrl = "https://airbnbclone-backend-guu1.onrender.com"
 
     let [loading,setLoading] = useState(false)
     let value = {
