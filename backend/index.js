@@ -15,7 +15,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://staygenie-t5kx.onrender.com",
     credentials:true
 }))
 
